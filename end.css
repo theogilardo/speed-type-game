@@ -1,0 +1,60 @@
+
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+body {
+  background-image: linear-gradient(to right bottom, #FCCF31, #F55555);
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+    background-color: #eee;
+    width: 50%;
+    height: 50%;
+    box-shadow: 0 1rem 2rem rgba(20, 20, 20, .2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.congrats {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.score {
+  font-size: 2rem;
+}
+
+a {
+  margin-top: 3rem;
+  text-decoration: none;
+  padding: 1rem 2.5rem;
+  font-size: 1.4rem;
+  text-align: center;
+  background-color: #2bbc9c;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  color: #eee;
+  border-radius: 5px;
+
+}
