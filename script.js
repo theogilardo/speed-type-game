@@ -1,7 +1,7 @@
 
 // DOM
 const wordRandom = document.getElementById('wordRandom')
-const wordArray = ['rabbit', 'football', 'music', 'tennis', 'home', 'car', 'house', 'anticonstitutional', 'embourgeoisement', 'tergiversation', 'Antidisestablishmentarianism', 'chocolate', 'apple', 'incomprehensibilities', 'unimaginatively', 'power', 'fashion', 'president';
+const wordArray = ['rabbit', 'football', 'music', 'tennis', 'home', 'car', 'house', 'anticonstitutional', 'embourgeoisement', 'tergiversation', 'Antidisestablishmentarianism', 'chocolate', 'apple', 'incomprehensibilities', 'unimaginatively', 'power', 'fashion', 'president'];
 const answer = document.getElementById('answer');
 const time = document.getElementById('time');
 let scoreGame = document.getElementById('scoreGame');
